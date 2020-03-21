@@ -1,0 +1,7 @@
+read_verilog ../liteeth_core.v
+read_verilog ../udp_panel_writer.v
+read_verilog ../ledpanel.v
+read_verilog ../pll.v
+read_verilog ../phy_io.v
+read_verilog ../top.v
+synth_ecp5 -retime

@@ -1,0 +1,12 @@
+# This file is Copyright (c) 2020 Florent Kermarrec <florent@enjoy-digital.fr>
+# License: BSD
+
+# PHY ----------------------------------------------------------------------
+phy:        LiteEthECP5PHYRGMII
+vendor:     lattice
+# Core ---------------------------------------------------------------------
+clk_freq:   125e6
+core:       udp
+mac_address: 0xAA040000CFCF
+ip_address:  192.168.178.50
+port:        6000
