@@ -23,7 +23,7 @@ color_scale = 8   # color divider
 num_rows = 64
 num_cols = num_rows
 output_size = num_rows
-bin_size = input_size / output_size
+bin_size = int(input_size / output_size)
 fbuf = np.zeros((num_rows), dtype='i4')
 
 s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
