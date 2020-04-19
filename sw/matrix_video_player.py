@@ -8,8 +8,7 @@ Usage: python3.7 matrix_video_player.py
 '''
 
 UDP_IP = '192.168.178.50'
-UDP_PORT = 26212
-#UDP_PORT = 26216
+UDP_PORT = 26177
 
 input_size = 1024    # input square size
 offset_x = 448      # left offset

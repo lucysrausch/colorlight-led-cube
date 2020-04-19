@@ -8,12 +8,12 @@ Usage: python3.7 matrix_video_player_X6.py
 '''
 
 UDP_IP = '192.168.178.50'
-UDP_PORT_1 = 26208
-UDP_PORT_2 = 26209
-UDP_PORT_3 = 26210
-UDP_PORT_4 = 26212
-UDP_PORT_5 = 26216
-UDP_PORT_6 = 26224
+UDP_PORT_1 = 26177
+UDP_PORT_2 = 26178
+UDP_PORT_3 = 26180
+UDP_PORT_4 = 26184
+UDP_PORT_5 = 26192
+UDP_PORT_6 = 26208
 
 input_size = 1024    # input square size
 offset_x = 448      # left offset

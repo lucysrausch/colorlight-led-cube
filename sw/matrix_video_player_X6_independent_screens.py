@@ -10,7 +10,7 @@ Usage: python3.7 matrix_video_player_X6_independent_screens.py
 '''
 
 UDP_IP = '192.168.178.50'
-UDP_PORT = [26113,26114,26116,26120,26128,26144]
+UDP_PORT = [26177, 26178, 26180, 26184, 26192, 26208]
 
 offset_x = 100
 offset_y = 10
