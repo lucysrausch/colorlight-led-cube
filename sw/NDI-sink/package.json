@@ -1,0 +1,11 @@
+{
+  "name": "colorlight-cube-ndi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "buffer-chunks": "^0.1.1",
+    "grandiose": "https://github.com/jensstigaard/grandiose",
+    "minimist": "^1.2.5"
+  }
+}
