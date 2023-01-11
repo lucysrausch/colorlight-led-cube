@@ -5,7 +5,7 @@ While this seems pretty unnecessary at the first glance, is actually super cool,
 Through the Colorlight was designed and is sold to drive such panels, it originally requires an additional, expensive capture card.
 With this new firmware you can use it straight away in you network and send UDP packets to it.
 
-![](https://raw.githubusercontent.com/NiklasFauth/colorlight-led-cube/master/images/photo_2020-03-21_09-06-08.jpg)
+![](https://raw.githubusercontent.com/lucysrausch/colorlight-led-cube/master/images/photo_2020-03-21_09-06-08.jpg)
 
 ## Current Specs
 - supports 6 LED displays with 64x64 Pixels each
@@ -87,11 +87,11 @@ Also, color resolution is 6bit per color, = RGB666. However, this is before gamm
 
 For examples on how to send these UPD packets, see the sw directory.
 
-IP can be changed here: https://github.com/NiklasFauth/colorlight-led-cube/blob/e69b52f0c26e402ab6625fdf7fe19fb6cdc9c46d/fpga/liteeth.yml#L11
+IP can be changed here: https://github.com/lucysrausch/colorlight-led-cube/blob/e69b52f0c26e402ab6625fdf7fe19fb6cdc9c46d/fpga/liteeth.yml#L11
 
 Recompile with make ../liteeth_core.v
 
-Ports can be changed here: https://github.com/NiklasFauth/colorlight-led-cube/blob/e69b52f0c26e402ab6625fdf7fe19fb6cdc9c46d/fpga/udp_panel_writer.v#L2
+Ports can be changed here: https://github.com/lucysrausch/colorlight-led-cube/blob/e69b52f0c26e402ab6625fdf7fe19fb6cdc9c46d/fpga/udp_panel_writer.v#L2
 
 This defines the MSB bitmask for the panels ports.
 
