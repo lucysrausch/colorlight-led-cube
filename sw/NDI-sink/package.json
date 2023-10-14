@@ -6,6 +6,6 @@
   "dependencies": {
     "buffer-chunks": "^0.1.1",
     "grandiose": "https://github.com/jensstigaard/grandiose",
-    "minimist": "^1.2.5"
+    "minimist": "^1.2.6"
   }
 }
